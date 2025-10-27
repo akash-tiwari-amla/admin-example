@@ -5,9 +5,14 @@
   "searchKeyWordsHelpers": "admin-example.navigation.search.kws",
   "subSectionItems": [
     {
-      "labelId": "admin-example.navigation.label-table",
-      "path": "/admin/example",
-      "searchKeyWordsHelpers": "admin-example.navigation.table.search.kws"
+      "labelId": "admin-example.navigation.label-new",
+      "path": "/admin/akash",
+      "searchKeyWordsHelpers": "admin-example.navigation.new.search.kws"
+    },
+    {
+      "labelId": "admin-example.navigation.label-artifi",
+      "path": "/admin/artifi",
+      "searchKeyWordsHelpers": "admin-example.navigation.layout.search.kws"
     }
   ]
 }

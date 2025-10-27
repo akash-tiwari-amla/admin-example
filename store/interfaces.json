@@ -1,0 +1,11 @@
+{
+  "Editor": {
+    "component": "Editor"
+  },
+  "InitializeArtifi": {
+    "component": "InitializeArtifi"
+  },
+  "ArtifiInjection": {
+    "component": "ArtifiInjection"
+  }
+}
