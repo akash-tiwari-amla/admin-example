@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import { useProduct } from 'vtex.product-context'
-
 // Define what parts you expect from the product context
 interface MySelectedItem {
   itemId: string
@@ -29,7 +28,6 @@ const InitializeArtifi: React.FC<ArtifiLoaderProps> = ({
   // Cast useProduct result to your custom interface
   const productContext = useProduct() as MyProductContext
   const { selectedItem } = productContext
-
   const [scriptLoaded, setScriptLoaded] = useState(false)
 
   // Use the identifier SKU from referenceId if it exists

@@ -7,5 +7,11 @@
   },
   "ArtifiInjection": {
     "component": "ArtifiInjection"
+  },
+  "Addtocart": {
+    "component": "Addtocart"
+  },
+  "CustomMinicartImage": {
+    "component": "CustomMinicartImage"
   }
 }
