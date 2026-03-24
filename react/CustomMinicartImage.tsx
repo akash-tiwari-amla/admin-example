@@ -15,7 +15,7 @@ const CustomMinicartImage: React.FC = () => {
 
       if (!images.length || !items.length) return
 
-      items.forEach((item, index) => {
+      items.forEach((item: any, index: number) => {
         const thumbnailUrl =
           item?.attachments?.find(
             (att: any) => att.name === 'Artifi Customization'

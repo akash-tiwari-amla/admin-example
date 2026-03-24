@@ -75,8 +75,8 @@ const Addtocart = () => {
 
         if (!addResp.ok) throw new Error(await addResp.text())
 
-        const addResult = await addResp.json()
-        // console.log('✅ Added to cart successfully:', addResult)
+        await addResp.json()
+        // cart item added successfully
 
         // Refresh minicart UI
         if ((window as any).vtexjs?.checkout?.getOrderForm) {
@@ -100,7 +100,7 @@ const Addtocart = () => {
       )
   }, [selectedItem])
 
-  return <div id="artifi-add-to-cart" />
+  return <div id="artifi-add-to-cart" style={{marginTop:"5px"}}/>
 }
 
 export default Addtocart

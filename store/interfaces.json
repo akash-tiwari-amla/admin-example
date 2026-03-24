@@ -13,5 +13,11 @@
   },
   "CustomMinicartImage": {
     "component": "CustomMinicartImage"
+  },
+  "ConditionalEditor": {
+    "component": "ConditionalEditor"
+  },
+  "ConditionalProductImage": {
+    "component": "ConditionalProductImage"
   }
 }
